@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+    width: 66%;
+    margin: auto;
+    min-height: 715px;
+    overflow: hidden;
+}
+
+.logo-area {
+    width: 60%;
+    float: left;
+    margin-top: 200px;
+}
+
+.logo-area img {
+    width: 41%;
+}
+
+.logo-area h1 {
+    font-size: 1.6em;
+}
+.login-area {
+    margin-top: 130px;
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+
+.login-area form {
+    width: 88%;
+    border: 1px solid #e5e7e9;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px #666666;
+}
+
+.login-area form input[type="text"] {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 90%;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid #e5e7e9;
+}
+
+.login-area form input[type="password"] {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 90%;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: 1px solid #e5e7e9;
+}
+
+.login-area form input[type="submit"] {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 100%;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgba(22, 111, 229, 1);
+    border-radius: 6px;
+    border: 1px solid #e5e7e9;
+}
+
+.login-area form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.first-link {
+    text-align: center;
+    display: block;
+    margin: 20px 0;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.first-link:hover {
+    text-decoration: underline;
+}
+.second-link {
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 6px;
+    padding: 14px 19px;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.second-link:hover {
+    background-color: #2ecc71;
+}
+
+form hr {
+    border-top: none;
+    border-color: #e5e7e9;
+}
+
+p {
+    font-size: 0.9em;
+}
+p a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    display: inline-block;
+}
+p a:hover {
+    text-decoration: underline;
+}
+
+.container2 {
+    min-height: 200px;
+    width: 100%;
+    background-color: #666666;
+}
